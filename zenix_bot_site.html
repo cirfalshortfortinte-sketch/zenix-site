@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zenix Bot</title>
+  <link rel="icon" href="https://i.postimg.cc/mDY3rcW4/Design-sans-titre.png" type="image/png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #0f172a;
+      color: #f1f5f9;
+    }
+    header {
+      background: #1e293b;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    header .logo img {
+      width: 48px;
+      height: 48px;
+      border-radius: 8px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      margin-top: 0.75rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    nav a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+      padding: 1rem;
+      background: #1e293b;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+    h2 {
+      color: #38bdf8;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #1e293b;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+      header .logo img {
+        width: 40px;
+        height: 40px;
+      }
+      nav a {
+        font-size: 0.9rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="https://i.postimg.cc/mDY3rcW4/Design-sans-titre.png" alt="Zenix Logo">
+      <h1>Zenix Bot</h1>
+    </div>
+    <nav>
+      <a href="#tos">Terms of Service</a>
+      <a href="#privacy">Privacy Policy</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="welcome">
+      <h2>Welcome to Zenix</h2>
+      <p>Zenix is a multifunctional Discord bot designed to make your server more fun and easier to manage. 🎉</p>
+    </section>
+
+    <section id="tos">
+      <h2>Terms of Service</h2>
+      <p>
+        By using Zenix, you agree to follow Discord’s Community Guidelines and Terms of Service.
+        You must not use the bot for illegal or abusive purposes. We reserve the right to restrict
+        access to Zenix if you misuse it.
+      </p>
+    </section>
+
+    <section id="privacy">
+      <h2>Privacy Policy</h2>
+      <p>
+        Zenix only stores the minimum data required for its functionality (such as Discord user IDs,
+        server IDs, and interaction logs). No personal information outside of Discord is collected
+        or shared with third parties.
+      </p>
+      <p>
+        If you want your data deleted, please contact us at: <strong>your-email@example.com</strong>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Zenix Bot. All rights reserved.
+  </footer>
+</body>
+</html>
